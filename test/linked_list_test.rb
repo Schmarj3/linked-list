@@ -59,10 +59,10 @@ describe LinkedList do
         end
 
         it "returns false if the element is not in the list" do
-          @list = LinkedList.new
-          @list.add_first(3)
-          @list.add_first(2)
-          expect(@list.search("pasta")).must_equal false
+            @list = LinkedList.new
+            @list.add_first(3)
+            @list.add_first(2)
+            expect(@list.search("pasta")).must_equal false
         end
 
         it "returns false for an empty list" do
